@@ -4,7 +4,7 @@ function Bird(name, color) {
   this.numLegs = 2;
 }
 
-const b = new Bird("Judy", "red");
+const b = new Bird("name", "red");
 
 let ownProps = [];
 for (let prop in b) {

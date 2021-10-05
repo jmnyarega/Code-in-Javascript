@@ -9,7 +9,7 @@ function Dog(name) {
 Dog.prototype.legs = 5
 Dog.prototype.bark = function() { return "Woof!"; }
 
-const dog = new Dog("Raila");
+const dog = new Dog("dog");
 
 const prototypeProps = [];
 

@@ -8,12 +8,12 @@ function Dog(name) {
 
 Dog.prototype.legs = 5;
 
-let ruto = new Dog("Ruto");
-let raila = new Dog("Raila");
+let dog1 = new Dog("dog 1");
+let dog2 = new Dog("dog 2");
 
 /*
  - legs prototype is available in both instances(ruto, raila)
 */
 
-console.log(ruto.legs)
-console.log(raila.legs)
+console.log(dog1.legs)
+console.log(dog2.legs)

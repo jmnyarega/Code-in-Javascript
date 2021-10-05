@@ -1,13 +1,9 @@
-/*
- - The constructor is a reference to the constructor function that created the instance
- - One of the use cases of constructor property is to find out what kind of object it is
-*/
-
-function Dog(name) {
-  this.name = name
+function Bird(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 2;
+  return this
 }
 
-const uhuru = new Dog();
-console.log(uhuru.constructor) // Dog
-
-console.log(uhuru.constructor === Dog) // true
+const b = new Bird("bird", "Dark red");
+console.log(b instanceof Bird);

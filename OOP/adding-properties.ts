@@ -1,5 +1,5 @@
 function Bird() {
-  this.name = "Ruto";
+  this.name = "bird";
 }
 
 /*
